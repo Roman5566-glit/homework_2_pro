@@ -1,5 +1,6 @@
 def create_product(name, price, quantity):
     """Creates product and allows price modification"""
+
     def change_price(new_price):
         """Changes product price"""
         nonlocal price
